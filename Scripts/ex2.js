@@ -3,8 +3,12 @@ Crie um algoritmo que faça uma contagem regressiva para o lançamento, iniciand
 Ao final da contagem, exiba a mensagem:
 "Lançamento realizado!"*/
 
-function nasa(){
+function ex2(){
 
-    for
+    for(let i = 10; i >= 0; i--) {
+
+        console.log("Lançamento!");
+
+    }
 
 }
