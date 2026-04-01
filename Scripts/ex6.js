@@ -6,6 +6,17 @@ E mostrar o resultado no console.*/
 
 function ex6() {
 
-    let letra = (prompt("Digite uma letra: "));
+    const vogais = ['a', 'e', 'i', 'o', 'u'];
 
+    let letra = prompt("Digite uma letra: ").toLocaleLowerCase();
+
+    if (vogais.includes(letra)) {
+
+        console.log('É uma vogal')
+
+    } else {
+
+        console.log('Não é uma vogal!')
+
+    }
 }
